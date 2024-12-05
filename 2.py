@@ -49,7 +49,9 @@ id: 002
 """
 print(info)
 
-# 转义字符
+# 转义字符  r 使转义字符失效
 print('asdf\n1234')
 print('asdf\t1234')
+print('a\nb\nc\n')
+print(r'a\nb\nc\n')
 
